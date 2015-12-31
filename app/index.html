@@ -9,14 +9,14 @@ Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
 
-<html lang="">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="Polymer Starter Kit" />
-  <title>Polymer Starter Kit</title>
+  <title>Shiny Adventure</title>
   <!-- Place favicon.ico in the `app/` directory -->
 
   <!-- Chrome for Android theme color -->
@@ -88,6 +88,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <iron-icon icon="mail"></iron-icon>
             <span>Contact</span>
           </a>
+
+          <a data-route="books" href="{{baseUrl}}books">
+            <iron-icon icon="book"></iron-icon>
+            <span>Books</span>
+          </a>
         </paper-menu>
       </paper-scroll-header-panel>
 
@@ -120,6 +125,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <iron-pages attr-for-selected="data-route" selected="{{route}}">
 
             <section data-route="home">
+
               <paper-material elevation="1">
                 <my-greeting></my-greeting>
 
@@ -128,6 +134,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
                 <p class="paper-font-body2">Looking for more Web App layouts? Check out our <a href="https://github.com/PolymerElements/app-layout-templates">layouts</a> collection. You can also <a href="http://polymerelements.github.io/app-layout-templates/">preview</a> them live.</p>
               </paper-material>
+
               <paper-material elevation="1">
                 <p class="paper-font-body2">This is another card.</p>
               </paper-material>
@@ -175,6 +182,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <paper-material elevation="1">
                 <h2 class="page-title">Contact</h2>
                 <p>This is the contact section</p>
+              </paper-material>
+            </section>
+
+            <section data-route="books">
+              <paper-material elevation="1">
+                <h2 class="page-title">Books</h2>
+                <p>Hello, World!</p>
               </paper-material>
             </section>
 
