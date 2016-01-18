@@ -87,7 +87,7 @@ function loadElements() {
 
 You can take this concept of a loading screen one step further by instead of showing a loading screen show a screen that looks like a lite version of your app. By this I mean simple shapes and blocks that match the color and blocks of your app once your elements are fully upgraded, so that your user has a faster perceived loading time.
 
-Hopefully these approaches give you some ideas on how to make your app lightning fast. 
+Hopefully these approaches give you some ideas on how to make your app lightning fast.
 
 We hope to explore further ideas including [application shells](https://github.com/ebidel/polymer-experiments/blob/master/polymersummit/fouc/appshell.html) and being smart about your first meaningful paint in the near future.
 

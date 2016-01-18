@@ -4,7 +4,7 @@ If you are using a Chromebook, one of the few IDE you can use is [Chrome Dev Edi
 
 To use the Polymer Starter Kit you have to download the [latest release](https://github.com/PolymerElements/polymer-starter-kit/releases) in the `light` flavor (the additional tools can't be used from CDE).
 
-After downloading the `polymer-starter-kit-light-*.zip` file unpack it in a new folder (for Example `psk-light`) you should have a directory structure like 
+After downloading the `polymer-starter-kit-light-*.zip` file unpack it in a new folder (for Example `psk-light`) you should have a directory structure like
 
 ![psk-light-folder-p1](https://cloud.githubusercontent.com/assets/1431346/9451900/a73ffcf2-4ab1-11e5-8742-e0b5523ba9d5.png)
 
